@@ -22,10 +22,12 @@ ip address 192.168.2.2 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/0
+no switchport
 ip address 192.168.8.2 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/2
+no switchport
 ip address 192.168.6.2 255.255.255.0
 no shutdown
 exit
@@ -51,10 +53,12 @@ ip address 192.168.2.3 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/0
+no switchport
 ip address 192.168.4.3 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/1
+no switchport
 ip address 192.168.3.3 255.255.255.0
 no shutdown
 exit
@@ -81,10 +85,12 @@ ip address 192.168.7.4 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/0
+no switchport
 ip address 192.168.4.4 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/2
+no switchport
 ip address 192.168.6.4 255.255.255.0
 no shutdown
 exit
@@ -111,10 +117,12 @@ ip address 192.168.7.5 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/0
+no switchport
 ip address 192.168.8.5 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/2
+no switchport
 ip address 192.168.6.5 255.255.255.0
 no shutdown
 exit
@@ -137,10 +145,12 @@ ip address 192.168.5.6 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/1
+no switchport
 ip address 192.168.3.6 255.255.255.0
 no shutdown
 exit
 interface FastEthernet 1/2
+no switchport
 ip address 192.168.6.6 255.255.255.0
 no shutdown
 exit
